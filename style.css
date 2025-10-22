@@ -1,4 +1,4 @@
-/* Общие стили */
+
 body {
     background-color: #000;
     color: #0ff;
@@ -7,7 +7,7 @@ body {
     padding: 20px;
 }
 
-/* Заголовок системы */
+
 h1 {
     text-align: center;
     color: #ff0080;
@@ -16,7 +16,7 @@ h1 {
     padding: 15px;
 }
 
-/* Блоки контента */
+
 .content-block {
     border: 1px solid #0ff;
     padding: 20px;
@@ -31,7 +31,7 @@ h1 {
     box-shadow: 0 0 15px #ff0080;
 }
 
-/* Заголовки h2 */
+
 h2.blue {
     color: #ff0080;
     border-bottom: 1px solid #0ff;
@@ -44,7 +44,7 @@ h2.cyan {
     padding-bottom: 10px;
 }
 
-/* Параграфы */
+
 p {
     margin: 0;
 }
@@ -61,7 +61,6 @@ p {
         text-shadow: 0 0 10px #ff0080;
     }
 
-/* Списки */
 ul.movies {
     color: #fff;
     list-style-type: none;
@@ -73,7 +72,7 @@ ol.music {
     padding-left: 20px;
 }
 
-/* Элементы списков */
+
 li.movie-item {
     margin: 10px 0;
 }
@@ -82,7 +81,7 @@ li.music-item {
     margin: 10px 0;
 }
 
-/* Ссылки */
+
 a.pink {
     color: #ff0080;
     text-decoration: none;
@@ -121,7 +120,7 @@ a.cyan-large {
     text-shadow: 0 0 5px #0ff;
 }
 
-/* Изображения */
+
 .image-container {
     text-align: center;
     margin: 40px 0;
@@ -139,7 +138,7 @@ img.picframe {
     box-shadow: 0 0 30px #0ff;
 }
 
-/* Таблица */
+
 .system-table {
     width: 100%;
     color: #fff;
@@ -156,7 +155,7 @@ img.picframe {
         background-color: #001122;
     }
 
-/* Цитата */
+
 blockquote {
     border-left: 3px solid #ff0080;
     padding-left: 15px;
@@ -166,7 +165,7 @@ blockquote {
     margin: 20px 0;
 }
 
-/* Футер */
+
 footer {
     text-align: center;
     margin-top: 40px;
@@ -196,3 +195,4 @@ h3.cyan {
     margin-top: 20px;
     text-shadow: 0 0 5px #0ff;
 }
+
