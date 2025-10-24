@@ -7,6 +7,38 @@ body {
     padding: 20px;
 }
 
+.header {
+    background: linear-gradient(135deg, #ff080, #off);
+    padding: 15px 30px;
+    border-bottom: 2px solid #0ff;
+    box-shadow: 0 0 20px #ff0080;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-links {
+    display:flex;
+    gap: 20px;
+}
+
+.header-link {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+}
+
+.header-linl:hover {
+    background: #000;
+    color: #0ff;
+    box-shadow: 0 0 15px #0ff;
+}
+
 
 h1 {
     text-align: center;
@@ -196,3 +228,29 @@ h3.cyan {
     text-shadow: 0 0 5px #0ff;
 }
 
+.container {
+    background: rgba(0, 20, 40, 0.8);
+    border: 1px solid #0ff;
+    padding: 40px 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 15px #0ff;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #ff0080, #0ff);
+    margin: 0 auto;
+    border: 2px solid #0ff;
+    box-shadow: 0 0 20px #ff0080;
+}
+
+.block-2  {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #ff0080;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #0ff;
+}
+
+    
